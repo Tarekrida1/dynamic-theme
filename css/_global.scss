@@ -1,0 +1,28 @@
+$firt_color: #1A237E;
+$second_color: #9575cd;
+$grey_color: #2d4057;
+@mixin tran($t) {
+    -webkit-transition: all $t ease-in-out;
+    -moz-transition: all $t ease-in-out;
+    -ms-transition: all $t ease-in-out;
+    -o-transition: all $t ease-in-out;
+    transition: all $t ease-in-out;
+}
+
+@mixin bradius($b) {
+    -webkit-border-radius: $b;
+    -moz-border-radius: $b;
+    -ms-border-radius: $b;
+    -o-border-radius: $b;
+}
+
+@mixin translat($tr, $st2) {
+    transform: translate($tr, $st2);
+    -webkit-transform: translate($tr, $st2);
+    -moz-transform: translate($tr, $st2);
+    -ms-transform: translate($tr, $st2);
+    -o-transform: translate($tr, $st2);
+}
+body {
+    height: 999px;
+}

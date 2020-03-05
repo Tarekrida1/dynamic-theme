@@ -1,0 +1,59 @@
+@import "global";
+@import "navbar";
+@import "media";
+
+/**************** start intro section *************/
+.intro {
+    height: 100vh;
+    position: relative;
+    h1 {
+        color: $firt_color;
+
+    }
+    h5 ,p {
+        color: $grey_color
+    }
+  .top_bg {
+        position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+     .st1 {
+        fill:$second_color
+    }
+
+    .gr{
+        stop:first-of-type {
+            stop-color:$firt_color
+        };
+        stop:last-of-type {
+            stop-color:$second_color
+        }
+    }
+    }
+
+    .main_svg {
+        width: 100%;
+        .fillmain {
+            
+            fill: $second_color
+        }
+        .fillbg {
+            fill: $firt_color;
+        }
+    }
+    
+}
+/**************** end Intro Section  *************/
+
+
+.sss {
+    background: var(--main-color);
+    p {
+    background: var(--second-color);
+
+    }
+}
